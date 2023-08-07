@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation Test</title>
+    <link src="https://cdn.jsdelivr.net/npm/textify.js@3.0.1/dist/Textify.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <p data-textify>MohammadHasan Pourghannad</p>
+<script src="https://cdn.jsdelivr.net/npm/textify.js@3.0.1/dist/Textify.min.js"></script>
+<script>
+    const textObj = new Textify({}, gsap);
+    window.addEventListener('load', () => {
+        textObj.animateIn();
+    });
+</script>
+</body>
+</html>
